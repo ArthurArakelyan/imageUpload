@@ -101,3 +101,53 @@ header {
     transform: rotate(1800deg);
   }
 }
+
+/*
+*** responsive
+*/
+
+@media only screen and (max-width: 1100px) {
+  .wrapper {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .images {
+    justify-content: space-between;
+  }
+  .imageBlock {
+    width: 47%;
+    min-height: 332px;
+  }
+  .image {
+    height: 320px;
+  }
+  .deleteImage {
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.555);
+  }
+}
+
+@media only screen and (max-width: 662px) {
+  .imageBlock {
+    width: 100%;
+    min-height: 422px;
+  }
+  .image {
+    height: 410px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .addImage {
+    width: 60%;
+  }
+  .imageBlock {
+    width: 100%;
+    min-height: 372px;
+  }
+  .image {
+    height: 360px;
+  }
+}
