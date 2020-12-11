@@ -12,15 +12,23 @@ header {
   justify-content: center;
   padding: 20px 0;
 }
-.addImage {
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: cyan;
+.addImageLabel {
+  font-size: 62px;
+  font-weight: 700;
   color: white;
+  background-color: rgba(0, 255, 255, 0.774);
+  padding: 15px 30px;
+  border-radius: 50%;
+  transition: background-color .4s ease-in-out;
+}
+.addImageLabel:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 255, 0.603);
+}
+.addImage {
   outline: none;
   border: none;
-  cursor: pointer;
+  display: none;
 }
 .images {
   width: 100%;
